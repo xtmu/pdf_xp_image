@@ -12,3 +12,4 @@ pip install pymupdf==1.18.14
 
 修改 main.py 第一行的解释器路径
 
+图片文件保存在 pdf 同目录下生成的同名文件夹  
