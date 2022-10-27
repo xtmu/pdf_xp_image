@@ -45,7 +45,7 @@ def func(pdf_path, image_dir):
                 pix0 = fitz.Pixmap(fitz.csRGB, pix)
                 # pix0.writePNG("p%s-%s.png" % (i + 1, j + 1))
                 output_path = image_dir + '\\' + "p%s-%s.png" % (i + 1, j + 1)
-                pix0.writePNG(image_dir)
+                pix0.writePNG(output_path)
                 pix0 = None  # free Pixmap resources
             pix = None  # free Pixmap resources
 
